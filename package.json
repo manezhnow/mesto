@@ -1,0 +1,37 @@
+{
+  "name": "project-1-mesto-second-part",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manezhnow/mesto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manezhnow/mesto/issues"
+  },
+  "homepage": "https://github.com/manezhnow/mesto#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "autoprefixer": "^10.5.0",
+    "babel-loader": "^10.1.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.4",
+    "cssnano": "^7.1.7",
+    "html-webpack-plugin": "^5.6.7",
+    "html-loader": "^5.1.0",
+    "mini-css-extract-plugin": "^2.10.2",
+    "postcss-loader": "^8.2.1",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
